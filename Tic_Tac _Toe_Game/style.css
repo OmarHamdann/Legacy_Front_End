@@ -11,7 +11,10 @@ li {
 
 .outer-container {
   background: rgb(135, 142, 240);
-  box-shadow: inset -1px 1px 7px rgba(0,0,0,.2), inset 1px -1px 7px rgba(0,0,0,.2), 1px 12px 5px rgba(0,0,0,.4), 4px 3px 8px rgba(0,0,0,.4), 5px 10px 10px rgba(0,0,0,.2), -5px 10px 10px rgba(0,0,0,.4);
+  box-shadow: inset -1px 1px 7px rgba(0, 0, 0, 0.2),
+    inset 1px -1px 7px rgba(0, 0, 0, 0.2), 1px 12px 5px rgba(0, 0, 0, 0.4),
+    4px 3px 8px rgba(0, 0, 0, 0.4), 5px 10px 10px rgba(0, 0, 0, 0.2),
+    -5px 10px 10px rgba(0, 0, 0, 0.4);
   position: relative;
   border-radius: 10px;
   width: 400px;
@@ -19,7 +22,6 @@ li {
   margin: 10% auto;
   padding: 40px 0 0;
 }
-
 
 .board-container {
   width: 350px;
@@ -67,7 +69,7 @@ li i {
   height: 100%;
   font-style: normal;
   font-family: "Architects Daughter", "Helvetica", "sans-serif";
-  color: rgba(220,220,220,.7);
+  color: rgba(220, 220, 220, 0.7);
   z-index: 500;
 }
 
@@ -91,12 +93,12 @@ li span {
 /* Player/Computer prompt */
 .player-one-turn {
   background: rgb(0 200 152);
-  left: 30%
+  left: 30%;
 }
 
 .player-two-turn {
   background: rgb(179, 72, 72);
-  left: 30%
+  left: 30%;
 }
 
 .player-one-turn,
@@ -116,7 +118,6 @@ li span {
   margin-top: 10px;
 }
 
-
 /* reset button */
 .hard-reset {
   position: absolute;
@@ -124,8 +125,8 @@ li span {
   right: 20px;
   background: none;
   border: none;
-  font-family: 'Architects Daughter', sans-serif;
-  color: rgba(100,60,50,.8);
+  font-family: "Architects Daughter", sans-serif;
+  color: rgba(100, 60, 50, 0.8);
   font-size: 1.1rem;
   border-radius: 20px;
   border: 2px dashed transparent;
@@ -133,8 +134,8 @@ li span {
 }
 
 .hard-reset:hover {
-  border: 2px dashed rgba(100,60,50,1);
-  color: rgba(100,60,50,1);
+  border: 2px dashed rgba(100, 60, 50, 1);
+  color: rgba(100, 60, 50, 1);
 }
 
 .hard-reset:focus {
@@ -143,7 +144,7 @@ li span {
 
 /*  Result Feedback */
 span.rotate {
-  color: rgba(0,200,200,1);
+  color: rgba(0, 200, 200, 1);
 }
 
 i.win {
@@ -153,7 +154,7 @@ i.win {
 .draw-message,
 .lose-message,
 .win-message {
-  background: rgba(0,0,0,.8);
+  background: rgba(0, 0, 0, 0.8);
   width: 400px;
   height: 400px;
   z-index: 2000;
@@ -174,7 +175,7 @@ i.win {
   margin: 0;
   top: 150px;
   left: 50px;
-  font-family: 'Architects Daughter', sans-serif;
+  font-family: "Architects Daughter", sans-serif;
 }
 
 /*============================================
@@ -184,17 +185,16 @@ i.win {
 .game-choice,
 .game-starter {
   background: rgb(14, 42, 77);
- 
-  
+
   display: block;
   width: 100%;
   height: 500px;
   position: absolute;
   top: 0px;
   text-align: center;
-  font-family: 'Architects Daughter', Helvetica, sans-serif;
+  font-family: "Architects Daughter", Helvetica, sans-serif;
   z-index: 1500;
-/*  display: none;*/
+  /*  display: none;*/
 }
 
 .game-starter {
@@ -210,7 +210,7 @@ i.win {
 .game-choice p,
 .game-starter button,
 .game-starter p {
-  color: rgba(220,220,220,1);
+  color: rgba(220, 220, 220, 1);
   position: relative;
   top: 50px;
   margin: 10px auto;
@@ -225,14 +225,14 @@ i.win {
 .game-starter button {
   background: none;
   border: none;
-  opacity: .6;
+  opacity: 0.6;
   border-radius: 20px;
   border: 2px solid transparent;
   font-size: 1.7rem;
 }
 
 .game-starter button {
-   font-size: 2.8rem;
+  font-size: 2.8rem;
 }
 
 .game-choice button:focus,
@@ -242,10 +242,10 @@ i.win {
 .game-choice button:hover,
 .game-starter button:hover {
   opacity: 1;
-  border: 2px dashed rgba(230,230,230,.5);
+  border: 2px dashed rgba(230, 230, 230, 0.5);
 }
 
-.game-starter button.back-button  {
+.game-starter button.back-button {
   position: absolute;
   top: 270px;
   right: 130px;
